@@ -10,6 +10,9 @@ p,
 .border_block .row *{
   width: auto ;
 }
+.img_modal1 {
+  width: 100%;
+}
 header
   .header_bottom
   .row
@@ -7068,10 +7071,16 @@ margin-top: 10px;
   }
 
 }
+.modal-dialog {
+  max-width: max-content !important;
+}
 @media (max-width: 508px) {
   #call_measurement .modal-dialog {
     margin-left: 0% !important;
     margin-top: 0;
+  }
+  .modal-dialog {
+    max-width: max-content !important;
   }
   #tab_director .row > *, #montaj_otdel  .row > *  {
     padding-left: calc(var(--bs-gutter-x) * .5);

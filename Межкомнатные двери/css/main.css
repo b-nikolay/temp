@@ -375,7 +375,10 @@ button:hover.btn_modal {
   font-size: 36px;
   line-height: 110%;
   color: #202020;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
+}
+.modal-dialog {
+  max-width: max-content !important;
 }
 @media (max-width: 1200px) {
   .section_title {
@@ -388,6 +391,7 @@ button:hover.btn_modal {
     font-size: 24px;
     margin: 0 0 40px 0;
   }
+  
 }
 @media (max-width: 650px) {
   .section_title {
