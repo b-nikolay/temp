@@ -6348,7 +6348,7 @@ left: -30px;
   background-image: url(../fonts/filter_arrow.svg) !important;
   transform-origin: 30% 20% !important;
   position: relative !important;
-  top: 7px !important;
+  top: 6px !important;
   background-size: 14px 8px !important;
 }
 .accordion-button:focus {
