@@ -1,0 +1,1370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/lg-zoom.min.css">
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="css/lightgallery.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/ion.rangeSlider.min.css">
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	
+	<title>Главная</title>
+
+<!-- 
+	<style>
+		@media (max-width: 600px) {
+			.modal-dialog {
+    max-width: 70% !important;
+    width: 70% !important;
+		
+  }
+		}
+	</style> -->
+
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+		<!-- Header -->
+		<header>
+
+			<!-- Header Top -->
+			<div class="header_top">
+				<div class="container">
+					<div class="row">
+						<div class="product_type">
+							<ul>
+								<li><a class="active" href="#">Двери</a></li>
+								<li><a href="#">Окна</a></li>
+							</ul>
+						</div>
+						<div class="header_nav">
+							<nav>
+								<ul>
+									<li><a href="#">О компании</a></li>
+									<li><a href="#">Акции</a></li>
+									<li><a href="#">Отзывы</a></li>
+									<li><a href="#">Доставка и оплата</a></li>
+									<li><a href="#">Установка</a></li>
+								</ul>
+							</nav>
+							<a class="header_phone" href="tel:+74991122173">+7(499)112 21 73</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Header Bottom -->
+			<div class="header_bottom">
+				<div class="container">
+					<div class="row">
+						<div class="header_logo">
+							<a href="#">
+								<img src="fonts/logo.svg" alt>
+							</a>
+						</div>
+						<div class="header_filter">
+							<div class="filter_form">
+								<form action>
+									<input type="text" name="search" placeholder="Поиск">
+									<button>
+										<img src="fonts/search.svg" alt>
+									</button>
+								</form>
+							</div>
+							<div class="filter_buttons">
+								<ul>
+									<li><a class="catalog" href="#"><img src="fonts/catalog_search.svg" alt> Каталог</a>
+									</li>
+									<li class="dropdown">
+										<a href="#">Входные двери</a>
+										<ul>
+											<li><a href="#">Эконом </a></li>
+											<li><a href="#">Противопожарные двери</a></li>
+											<li><a href="#">Стандарт</a></li>
+											<li><a href="#">С терморазрывом </a></li>
+											<li><a href="#">Премиум</a></li>
+											<li><a href="#">С зеркалом</a></li>
+											<li><a href="#">В частный дом</a></li>
+											<li><a href="#">Распродажа</a></li>
+											<li><a href="#">В квартиру</a></li>
+											
+										</ul>
+									</li>
+									<li class="dropdown">
+										<a href="#">Межкомнатные двери</a>
+										<ul>
+											<li><a href="#">Экошпон</a></li>
+											<li><a href="#">Финиш Флекc</a></li>
+											<li><a href="#">Хард Флекс</a></li>
+											<li><a href="#">Шпонированные</a></li>
+											<li><a href="#">Из массива</a></li>
+											<li><a href="#">CPL</a></li>
+											<li><a href="#">ПВХ-пленка</a></li>
+											<li><a href="#">Эмалит</a></li>
+											<li><a href="#">Эмаль</a></li>
+											<li><a href="#">Раздвижные двери</a></li>
+											<li><a href="#">Складные двери</a></li>
+											<li><a href="#">Арки и порталы</a></li>
+											<li><a href="#">Распродажа</a></li>	
+											
+										</ul>
+									</li>
+									<li><a href="#">Фурнитура</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="header_callback">
+							<a href="#" class="favorites"> <img src="fonts/hearth.svg" alt>Избранное</a>
+							<button type="button" class="callback_btn" data-bs-toggle="modal"
+								data-bs-target="#callBack">Заказать
+								звонок</button>
+						</div>
+
+						<div class="modal fade" id="callBack" tabindex="-1" aria-labelledby="callBack"
+							aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content position-relative">
+									<button type="button" class="btn-close position-absolute" data-bs-dismiss="modal"
+										aria-label="Закрыть"></button>
+
+									<div class="modal-body flex-column">
+										<h1 class="modal-title" id="callBack">Оставьте заявку</h1>
+										<p>Наш менеджер свяжется с Вами в самое ближайшее время</p>
+										<form action="" class="d-flex flex-column">
+											<input type="text" name="" id="" placeholder="Введите имя" required>
+											<input type="tel" name="" id="" placeholder="Введите телефон" required>
+											<p class="modal-politic">Нажимая кнопку «Оставить заявку» вы соглашаетесь<a
+													href="">с политикой
+													конфиденциальности</span></p>
+										<button type="button" class="callback_btn button_blue button" data-bs-toggle="modal" data-bs-target="#callBack_bottom">Перезвоните мне</button>
+										</form>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<!-- Mobile Header -->
+			<div class="mobile_header">
+				<div class="mobile_header_top">
+					<div class="container">
+						<div class="row">
+							<div class="header_logo">
+								<a href="#"><img src="fonts/logo_small.svg" alt=""></a>
+							</div>
+							<div class="header_phone">
+								<a href="tel:+74991122173">+7(499)112 21 73</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mobile_header_bottom">
+					<div class="container">
+						<div class="row">
+							<div class="header_menu">
+								<a href="#" class="menu_toggler">
+									<span></span>
+									<span></span>
+									<span></span>
+									<span></span>
+								</a>
+								<div class="mobile_menu">
+									<div class="products_type">
+										<a href="#" class="active">Двери</a>
+										<a href="#">Окна</a>
+									</div>
+									
+									<a href="#" class="product_categories-one" >Каталог</a>
+									<div class="product_categories">
+										<ul>
+											<li><a href="#">Входные двери</a></li>
+											<li><a href="#">Межкомнатные двери</a></li>
+										</ul>
+									</div>
+									
+									<a href="#" class="product_categories-one" >Раздвижные двери</a>
+									<a href="#" class="product_categories-one" >Складные двери</a>
+									<a href="#" class="product_categories-one" >Арки и порталы</a>
+									<a href="#" class="product_categories-one" >Фурнитура</a>
+									<a href="#" class="product_categories-one" >Специальные двери</a>
+									<a href="#" class="product_categories-one" >Распродажа</a>
+
+								</div>
+								<div class="sub_category sub_category_1">
+									<div class="category_title">Входные двери</div>
+									<div class="category_children">
+										<ul>
+											<li><a href="#">Эконом</a></li>
+											<li><a href="#">Стандарт</a></li>
+											<li><a href="#">Премиум</a></li>
+											<li><a href="#">В частный дом</a></li>
+											<li><a href="#">В квартиру</a></li>
+											<li><a href="#">С зеркалом</a></li>
+											<li><a href="#">Противопожарные двери</a></li>
+											<li><a href="#">С терморазрывом</a></li>
+											<li><a href="#">Распродажа</a></li>
+
+
+
+											
+										</ul>
+									</div>
+								</div>
+								<div class="sub_category sub_category_2">
+									<div class="category_title">Межкомнатные двери</div>
+									<div class="category_children">
+										<ul>
+											<li><a href="#">Экошпон</a></li>
+											<li><a href="#">Финиш Флекc</a></li>
+											<li><a href="#">Хард Флекс</a></li>
+											<li><a href="#">Шпонированные</a></li>
+											<li><a href="#">Из массива</a></li>
+											<li><a href="#">CPL</a></li>
+											<li><a href="#">ПВХ-пленка</a></li>
+											<li><a href="#">Эмалит</a></li>
+											<li><a href="#">Эмаль</a></li>
+											<!-- <li><a href="#">Раздвижные двери</a></li>
+											<li><a href="#">Складные двери</a></li>
+											<li><a href="#">Арки и порталы</a></li> -->
+											<li><a href="#">Распродажа</a></li>
+										</ul>
+									</div>
+								</div>
+
+
+
+
+								<div class="mobile_search">
+									<form>
+										<input type="text" name="search" placeholder="Поиск">
+										<button class="button button_blue">Найти</button>
+									</form>
+								</div>
+							</div>
+							<div class="header_action">
+								<div class="search_form">
+									<form action>
+										<input type="text" name="search" placeholder="Поиск">
+										<button><img src="fonts/search.svg" alt></button>
+									</form>
+									<div class="search_opener">
+										<img src="fonts/search_opener.svg" alt>
+										Поиск
+									</div>
+								</div>
+								<div class="favorites">
+									<a href="#"><img src="fonts/hearth.svg" alt="">Избранное</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- Section Hero -->
+		<section class="hero">
+			<div class="container" >
+				<div class="row">
+					<div class="hero_texts  ">
+						<h2 class="hero_title">Входные и межкомнатные двери <span>под ключ</span></h2>
+						<div class="hero_description"><span>Бесплатные</span> опции нашей компании:</div>
+						<ul class="hero_advantages">
+							<li>
+								<img src="fonts/hero_advantage_1.svg" alt>
+								<span style="width: 100%;">Замер — 0 ₽</span>
+							</li>
+							<li>
+								<img src="fonts/hero_advantage_2.svg" alt>
+								<span style="width: 100%;">Доставка — 0 ₽</span>
+							</li>
+							<li>
+								<img src="fonts/hero_advantage_3.svg" alt>
+								<span style="width: 100%;">Демонтаж — 0 ₽</span>
+							</li>
+							<li>
+								<img src="fonts/hero_advantage_4.svg" alt>
+								<span style="width: 100%;">Рассрочка — 0 %</span>
+							</li>
+						</ul>
+						<div class="hero_action">
+							<button class="button button_blue">Подобрать дверь</button>
+						</div>
+					</div>
+				</div>
+
+				<img src="images/hero_image.png" alt class="hero_image">
+			</div>
+		</section>
+
+		<!-- Section Locations -->
+		<section class="location">
+			<div class="container">
+				<div class="row">
+					<div class="block_title">Где мы работаем?</div>
+					<ul class="location_adresses">
+						<li><a href="#"><i class="bi bi-geo-alt" style="font-size: 1.5rem;"></i>Южное Бутово</a></li>
+						<li><a href="#"><i class="bi bi-geo-alt" style="font-size: 1.5rem;"></i>Чехов</a></li>
+						<li><a href="#"><i class="bi bi-geo-alt" style="font-size: 1.5rem;"></i>Подольск</a></li>
+						<li><a href="#"><i class="bi bi-geo-alt" style="font-size: 1.5rem;"></i>Видное</a></li>
+						<li><a href="#"><i class="bi bi-geo-alt" style="font-size: 1.5rem;"></i>Щербинка</a></li>
+						<li><a href="#"><i class="bi bi-geo-alt" style="font-size: 1.5rem;"></i>Домодедово</a></li>
+						<li><a href="#"><i class="bi bi-geo-alt" style="font-size: 1.5rem;"></i>Ступино</a></li>
+						<div class="show_map">
+							<a href="#map">Показать карту <img src="fonts/arrow_down.svg" alt></a>
+						</div>
+					</ul>
+
+				</div>
+			</div>
+		</section>
+
+		<!-- Section Free Measurement-->
+		<section class="free_measurement">
+			<div class="container">
+				<div class="row">
+					<div class="measurement_image">
+						<img src="images/free_measurement.png" alt>
+					</div>
+					<div class="measurement_texts">
+						<h4 class="title">Как проходит бесплатный замер?</h4>
+						<div class="description">
+							<p>Специалист замерит двери в удобное для Вас время. Покажет каталоги и посоветует
+								оптимальные материалы.</p>
+							<p><strong>Он определит все технические особенности заказа:</strong></p>
+							<p>Размеры проёмов, материал стен, необходимость дополнительных материалов или
+								комплектующих, сложность предстоящего монтажа.</p>
+							<button type="button" class="callback_btn button button_blue " data-bs-toggle="modal"
+								data-bs-target="#call_measurement">Вызвать замерщика</button>
+						</div>
+
+						<div class="modal fade" id="call_measurement" tabindex="-1" aria-labelledby="call_measurement"
+							aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content modal-measure">
+
+
+									<div class="modal-body-measure position-relative flex-column ">
+										<button type="button" class="z-2 btn-close btn-close-measure position-absolute"
+											data-bs-dismiss="modal" aria-label="Закрыть"></button>
+										<h1 class="modal-title modal-title-measure" id="call_measurement">Вызов
+											замерщика</h1>
+										<p>Стоимость замера <span>1000 руб</span> - высчитывается из суммы заказа.</p>
+										<div class="d-flex measure">
+											<div class="measure-left">
+												<p class="modal-measure-chooseDate">Выберите желаемую дату</p>
+												<div class="calendar_view"></div>
+											</div>
+											<div class="modal-measure-form">
+												<p class="modal-measure-chooseDate">Заполните форму</p>
+												<form action="">
+													<input type="text" name="" id="" placeholder="Введите имя">
+													<input type="tel" name="" id="" placeholder="Введите телефон">
+													<input type="text" name="" id="" placeholder="Введите адрес">
+													<textarea name="" id=""
+														placeholder="Оставьте комментарий"></textarea>
+													<p class="modal-politic">Нажимая кнопку «Оставить заявку» вы
+														соглашаетесь <a href="">с политикой конфиденциальности</span>
+													</p>
+													<button type="button" class="callback_btn button_blue button" data-bs-toggle="modal" data-bs-target="#callBack_bottom">Вызвать замерщика</button>
+												</form>
+											</div>
+										</div>
+
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section Products -->
+		<section class="products">
+			<div class="container">
+			<div class="row">
+				<div class="section_title"><a href="">Входные двери</a></div>
+				<div class="catalogue__grid">
+					<div class="catalogue__grid__item">
+						<p class="catalogue__grid__title">Эконом</p>
+						<span class="catalogue__grid__price">от 13 400 ₽</span>
+						<img src="images/econom.svg" alt="">
+					</div>
+					<div class="catalogue__grid__item">
+						<p class="catalogue__grid__title">Стандарт</p>
+						<span class="catalogue__grid__price">от 24 900 ₽</span>
+						<img src="images/standard.png" alt="">
+					</div>
+					<div class="catalogue__grid__item">
+						<p class="catalogue__grid__title">Премиум</p>
+						<span class="catalogue__grid__price">от 35 700 ₽</span>
+						<img src="images/premium.png" alt="">
+					</div>
+					<div class="catalogue__grid__item">
+						<p class="catalogue__grid__title">Терморазрыв</p>
+						<span class="catalogue__grid__price">от 29 700 ₽</span>
+						<img src="images/termorazriv.png" alt="">
+					</div>
+					<div class="catalogue__grid__item">
+						<p class="catalogue__grid__title">С зеркалом</p>
+						<span class="catalogue__grid__price">от 20 700 ₽</span>
+						<img src="images/zerkalo.png" alt="">
+					</div>
+					<div class="catalogue__grid__item">
+						<p class="catalogue__grid__title">В частный дом</p>
+						<span class="catalogue__grid__price">от 24 900 ₽</span>
+						<img src="images/private_house.png" alt="">
+					</div>
+					<div class="catalogue__grid__item">
+						<p class="catalogue__grid__title">В квартиру</p>
+						<span class="catalogue__grid__price">от 20 700 ₽</span>
+						<img src="images/flat.png" alt="">
+					</div>
+					<div class="catalogue__grid__last">
+
+						<a class="d-none d-md-block" href=""><img src="images/img_sale.png" alt=""></a>
+						<a class="d-block d-md-none" href=""><img src="images/img_salee_mobile.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+			</div>
+		</section>
+
+		<!-- Section Products -->
+		<section class="products">
+			<div class="container">
+				<div class="row">
+				<div class="section_title"><a href="">Межкомнатные двери</a></div>
+			
+
+					<a href="#" class="product_item">
+						<div class="product_name">Массив</div>
+						<div class="product_price">от 9 282 ₽ <span>(комплект)</span></div>
+						<img src="images/product9.png" alt>
+					</a>
+
+					<a href="#" class="product_item">
+						<div class="product_name">Шпонированные</div>
+						<div class="product_price">от 12 152 ₽ <span>(комплект)</span></div>
+						<img src="images/product10.png" alt>
+					</a>
+
+					<a href="#" class="product_item">
+						<div class="product_name">Эко Шпон</div>
+						<div class="product_price">от 6 786 ₽ <span>(комплект)</span></div>
+						<img src="images/product11.png" alt>
+					</a>
+
+					<a href="#" class="product_item">
+						<div class="product_name">Винил</div>
+						<div class="product_price">от 7 980 ₽ <span>(комплект)</span></div>
+						<img src="images/product12.png" alt>
+					</a>
+
+					<a href="#" class="product_item">
+						<div class="product_name">Финиш Флекс</div>
+						<div class="product_price">от 5 264 ₽ <span>(комплект)</span></div>
+						<img src="images/product13.png" alt>
+					</a>
+
+					<a href="#" class="product_item mid">
+						<div class="product_name">Эмаль</div>
+						<div class="product_price">от 11 844 ₽ <span>(комплект)</span></div>
+						<img src="images/product14.png" alt>
+					</a>
+
+					<a href="#" class="product_item big">
+						<div class="product_name">Стеклянные</div>
+						<div class="product_price">от 5 120 ₽
+							<!--  <span>(комплект)</span> -->
+						</div>
+						<img src="images/product15.png" alt="">
+					</a>
+
+				</div>
+			</div>
+		</section>
+
+		<!-- Section Products -->
+		<section class="products">
+			<div class="container">
+				<div class="row">
+					<div class="section_title"><a href="">Для экономии пространства</a></div>
+					<div class="catalogue3__grid">
+						<div class="catalogue3__grid__item">
+							<p class="catalogue3__grid__title">Раздвижные <br>двери</p>
+							<img src="images/razdv.svg" alt="">
+						</div>
+						<div class="catalogue3__grid__item">
+							<p class="catalogue3__grid__title">Складные <br>двери</p>
+							<img src="images/sklad.svg" alt="">
+						</div>
+						<div class="catalogue3__grid__item">
+							<p class="catalogue3__grid__title">Арки<br> и порталы</p>
+							<img src="images/arki.svg" alt="">
+						</div>
+						<div class="catalogue3__grid__last">
+							<a href=""><img src="images/img_sale2.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section Help Choose -->
+		<section class="help_choose">
+			<div class="container">
+				<div class="border_block row">
+					<div class="row">
+						<form class="help_form">
+							<div class="form_title">Помочь подобрать дверь?</div>
+							<div class="form_description">Оставьте свои данные и мы вам перезвоним в течение 10-ти минут
+							</div>
+							<div class="input_item">
+								<input type="text" name="name" placeholder="Введите имя">
+							</div>
+							<div class="input_item">
+								<input type="tel" name="phone" placeholder="Введите телефон">
+							</div>
+							<div class="input_item confidential">
+								Нажимая кнопку «Перезвоните мне» вы соглашаетесь с <a href="#">политикой
+									конфиденциальности</a>
+							</div>
+							<div class="input_item">
+								<button type="button" class="callback_btn button_blue button" data-bs-toggle="modal"
+									data-bs-target="#callBack_bottom">Перезвоните мне</button>
+							</div>
+						</form>
+
+
+						<div class="manager_info">
+
+							<div class="call_us">
+								<p>Звоните нам по телефону</p>
+								<a href="tel:+74991122173">+7(499)112 21 73</a>
+							</div>
+							<div class="your_manager">
+								<p>Ваш менеджер:</p>
+								<div class="manager_name">Иван Ведмеденко</div>
+							</div>
+						</div>
+						<img class="manager_image" src="images/manager.png" alt>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section Steps -->
+		<section class="steps">
+			<div class="container">
+				<div class="section_title row">Этапы работ</div>
+				<div class="steps_block">
+					<div class="step_numbers row">
+						<div class="number_item">
+							<img class="number_image" src="fonts/step1.svg" alt>
+							<span>01</span>
+						</div>
+						<div class="number_item">
+							<img class="number_image" src="fonts/step2.svg" alt>
+							<span>02</span>
+						</div>
+						<div class="number_item">
+							<img class="number_image" src="fonts/step3.svg" alt>
+							<span>03</span>
+						</div>
+						<div class="number_item">
+							<img class="number_image" src="fonts/step4.svg" alt>
+							<span>04</span>
+						</div>
+						<div class="number_item">
+							<img class="number_image" src="fonts/step5.svg" alt>
+							<span>05</span>
+						</div>
+						<div class="number_item">
+							<img class="number_image" src="fonts/step6.svg" alt>
+							<span>06</span>
+						</div>
+					</div>
+					<div class="step_descriptions row">
+
+						<div class="description_item">
+							Вы обращаетесь к нам за консультацией или для вызова замерщика с каталогом и веером декоров
+							<br>
+							<br>
+<!-- 
+							<button type="button" class="callback_btn button button_blue " >Вызвать замерщика</button> -->
+							<a href="#" data-bs-toggle="modal"
+							data-bs-target="#call_measurement">Вызвать замерщика</a>
+						</div>
+
+						<div class="description_item">
+							После консультации направляем к Вам замерщика
+						</div>
+
+						<div class="description_item">
+							После замера у вас есть возможность подобрать двери по каталогу и вееру декоров
+						</div>
+
+						<div class="description_item">
+							Заключение официального договора
+						</div>
+
+						<div class="description_item">
+							В течении 3-5 дней монтаж с последующей гарантией на него 1 год
+						</div>
+
+						<div class="description_item">
+							Вы остаётесь полностью довольны, рекомендуете нас знакомым, обращаетесь снова на льготных
+							условиях
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section Team -->
+		<section class="team">
+			<div class="container">
+				<div class="team_block row">
+					<div class="team_tab">
+						<div class="tab_navigation">
+							<ul>
+								<li><a href="#tab_director" class="active nav_item">Директор</a></li>
+								<li><a href="#montaj_otdel" class="nav_item">Монтажный отдел</a></li>
+								<li><a href="#team" class="nav_item">Команда</a></li>
+							</ul>
+						</div>
+						<div class="tab_body">
+							<div class="tab_item active director" id="tab_director">
+								<div class="row ">
+									<div class="director_image">
+										<img src="images/director.png" alt>
+									</div>
+									<div class="director_texts">
+										<p>Мы стараемся делать всё возможное, чтобы на всех этапах “от начала обращения
+											в нашу компанию до установленных на вашем адресе дверей” у Вас остались
+											только положительные эмоции!</p>
+
+										<p>С любыми пожеланиями, замечаниями и вопросами Вы можете написать
+											непосредственно мне.</p>
+
+										<p>Приятных покупок! <br> <strong>С ув. Богомаз Дмитрий Вадимович,
+												директор</strong></p>
+
+										<div class="write_to_director">
+											<button type="button" class="callback_btn button_blue button"
+												data-bs-toggle="modal" data-bs-target="#writeDirector">Написать
+												директору</button>
+										</div>
+										<div class="modal fade" id="writeDirector" tabindex="-1"
+											aria-labelledby="writeDirector" aria-hidden="true">
+											<div class="modal-dialog">
+												<div class="modal-content position-relative">
+													<button type="button" class="btn-close position-absolute"
+														data-bs-dismiss="modal" aria-label="Закрыть"></button>
+
+													<div class="modal-body flex-column">
+														<h1 class="modal-title" id="writeDirector">Напишите директору
+														</h1>
+														<p>Мы свяжемся с Вами в самое ближайшее время</p>
+														<form action="" class="d-flex flex-column">
+															<input type="text" name="" id="" placeholder="Введите имя"
+																required>
+															<input type="tel" name="" id=""
+																placeholder="Введите телефон" required>
+															<textarea name="" id=""
+																placeholder="Введите текст письма"></textarea>
+															<p class="modal-politic">Нажимая кнопку «Оставить заявку» вы
+																соглашаетесь<a href="">с политикой
+																	конфиденциальности</span></p>
+																	<button type="button" class="callback_btn button_blue button" data-bs-toggle="modal" data-bs-target="#callBack_bottom">Отправить письмо</button>
+														</form>
+													</div>
+
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="tab_item otdel_montaj" id="montaj_otdel">
+								<div class="block_title">Любой ремонт, как и монтаж дверей - <span> дело
+										профессионалов</span></div>
+								<div class="row ">
+									<div class="otdel_item">
+										Мы берём на себя все ваши заботы, и вам остается только высказать свои пожелания
+										и принять у нас нашу работу - то есть качественно установленные у вас двери!
+									</div>
+									<div class="otdel_item">
+										<img src="images/otdel_montaj_1.jpg" alt>
+									</div>
+									<div class="otdel_item">
+										<img src="images/otdel_montaj_2.jpg" alt>
+									</div>
+									<div class="otdel_item">
+										<img src="images/otdel_montaj_3.jpg" alt>
+									</div>
+								</div>
+							</div>
+							<div class="tab_item team_members" id="team">
+								<div class="block_title">Наши сотрудники - <span>ключевая ценность</span> компании
+									PERFECT DOORS</div>
+								<div class="row">
+
+									<div class="member_item">
+										<div class="member_image">
+											<img src="images/member1.png" alt>
+										</div>
+										<div class="member_name">Иван Ведменко</div>
+										<div class="member_status">отдел продаж</div>
+									</div>
+
+									<div class="member_item">
+										<div class="member_image">
+											<img src="images/member2.png" alt>
+										</div>
+										<div class="member_name">Дорохин Дмитрий</div>
+										<div class="member_status">отдел закупок</div>
+									</div>
+
+									<div class="member_item">
+										<div class="member_image">
+											<img src="images/member3.png" alt>
+										</div>
+										<div class="member_name">Григоренко Оксана</div>
+										<div class="member_status">отдел кадров</div>
+									</div>
+
+									<div class="member_item">
+										<div class="member_image">
+											<img src="images/member4.png" alt>
+										</div>
+										<div class="member_name">Артем Данилов</div>
+										<div class="member_status">отдел рекламации</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="team_photos">
+						<div class="section_title">Наш коллектив</div>
+						<div class="gallery_block">
+							<a class="gallery_item" href="images/photo1.jpg">
+								<img src="images/photo1.jpg" alt>
+							</a>
+							<a class="gallery_item" href="images/photo2.jpg">
+								<img src="images/photo2.jpg" alt>
+							</a>
+							<a class="gallery_item" href="images/photo3.jpg">
+								<img src="images/photo3.jpg" alt>
+							</a>
+							<a class="gallery_item" href="images/photo4.jpg">
+								<img src="images/photo4.jpg" alt>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section Portfolio Gallery -->
+		<section class="work_portfolio">
+			<div class="container">
+				<a class="section_title d-block row">Фотогалерея работ</a>
+				<div class="portfolio_slider row">
+					<div class="swiper">
+
+						<div class="swiper-wrapper">
+
+							<div class="swiper-slide">
+								<div class="portfolio_item">
+									<a href="images/portfolio_1.jpg">
+										<img src="images/image-3.png" alt>
+									</a>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="portfolio_item">
+									<a href="images/portfolio_2.jpg">
+										<img src="images/image.png" alt>
+									</a>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="portfolio_item">
+									<a href="images/portfolio_3.jpg">
+										<img src="images/image-1.png" alt>
+									</a>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="portfolio_item">
+									<a href="images/portfolio_4.jpg">
+										<img src="images/image-2.png" alt>
+									</a>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+					<div class="swiper_navigation">
+						<div class="swiper_next">
+							<img src="fonts/slider_arrow.svg" alt>
+						</div>
+						<div class="swiper_prev">
+							<img src="fonts/slider_arrow.svg" alt>
+						</div>
+					</div>
+				</div>
+
+				<div class="all_works">
+					<a href="#" class="button button_blue">Фото работ</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section Advantages -->
+		<section class="advantages">
+			<div class="container">
+				<div class="advantages_tab">
+					<div class="tab_navigation">
+						<ul>
+							<li><a href="#warranties" class="active nav_item">Гарантии</a></li>
+							<li><a href="#numbers" class="nav_item">О нас в цифрах</a></li>
+							<li><a href="#certificates" class="nav_item">Сертификаты</a></li>
+						</ul>
+					</div>
+					<div class="tab_body">
+						<div class="tab_item active" id="warranties">
+							<div class=" warranties row">
+
+								<div class="warranty_block">
+									<div class="block_title">Покупка дверей еще не была такой безопасной и выгодной
+									</div>
+									<div class="warranty_list">
+										<ul>
+											<li>Гарантия соблюдения сроков</li>
+											<li>Гарантия на поставляемый товар</li>
+											<li>Гарантия на профессиональные монтажные работы</li>
+											<li>Гарантия фиксированной стоимости заказа</li>
+											<li>Гарантия возврата на поставляемый товар</li>
+											<li>Мы не боимся ответсвенности - <br> мы гарантируем результат!</li>
+										</ul>
+									</div>
+								</div>
+
+								<div class="warranty_block row">
+									<div class="warranty_item">
+										<div class="block_title">Договор <br> “Поставка дверей”</div>
+										<div class="contract_image">
+											<img src="images/contract1.png" alt>
+										</div>
+									</div>
+
+									<div class="warranty_item">
+										<div class="block_title">Договор <br> “Монтаж дверей”</div>
+										<div class="contract_image">
+											<img src="images/contract2.png" alt>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="tab_item" id="numbers">
+							<div class="row">
+
+								<!-- Number Item -->
+								<div class="number_item">
+									<div class="number_year">9 лет</div>
+									<div class="number_description">На протяжении 9 лет мы продаём и устанавливаем двери
+										в Москве и обл. Компания, проверенная временем!
+									</div>
+								</div>
+
+								<!-- Number Item -->
+								<div class="number_item">
+									<div class="number_year">10 лет</div>
+									<div class="number_description">Предоставляем 10 ЛЕТ ГАРАНТИИ!
+										Многоступенчатый контроль качества
+										максимально снижает возможность
+										брака!</div>
+								</div>
+
+								<!-- Number Item -->
+								<div class="number_item">
+									<div class="number_year">1070 клиентов</div>
+									<div class="number_description">Нашими клиентами стали более 1070 человек! Каждый
+										третий клиент нашей компании по рекомендации!</div>
+								</div>
+
+								<!-- Number Item -->
+								<div class="number_item">
+									<div class="number_year">3 дня</div>
+									<div class="number_description">Доставка в течении 3-х дней! Возможность установки в
+										день доставки!</div>
+								</div>
+
+								<!-- Number Item -->
+								<div class="number_item">
+									<div class="number_year">1 год</div>
+									<div class="number_description">1 год бесплатного монтажного обслуживания!</div>
+								</div>
+
+								<!-- Number Item -->
+								<div class="number_item">
+									<div class="number_year">22 400 дверей</div>
+									<div class="number_description">Более 22 400 установленных дверей</div>
+								</div>
+
+							</div>
+
+						</div>
+						<div class="tab_item" id="certificates">
+							<div class="row">
+								<div class="certificate_item">
+										<img src="images/certificate1.jpg" alt>
+								</div>
+
+								<div class="certificate_item">
+										<img src="images/certificate2.jpg" alt>
+								</div>
+
+								<div class="certificate_item">
+										<img src="images/certificate3.jpg" alt>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section News & FAQ -->
+		<section class="news_faq">
+			<div class="container">
+				<div class="row">
+					<div class="news">
+						<a href="" class="section_title">Статьи</a>
+						<div class="news_block">
+
+							<!-- News Item -->
+							<div class="news_item">
+								<h3 class="news_title"><a href="#">Как выбрать входную дверь</a></h3>
+								<div class="news_date">19 апреля, 2022</div>
+								<div class="news_anons">В этой статье нам бы хотелось рассказать о том, что же нужно
+									знать прежде, чем купить входные двери; Предисловие… Понимание того, что какая бы
+									нибыла толстая дверь, и тем более…</div>
+								<div class="news_action">
+									<a href="#">Подробнее>></a>
+								</div>
+							</div>
+
+							<!-- News Item -->
+							<div class="news_item">
+								<h3 class="news_title"><a href="#">Как выбрать межкомнатные двери</a></h3>
+								<div class="news_date">18 апреля, 2022</div>
+								<div class="news_anons">И так, выбираем межкомнатные двери из всего разнообразия –
+									особенно в нашем то случае, когда их как в нашем случае более 1000 моделей. Начнём
+									пожалуй с самого главного… Виды покрытий…</div>
+								<div class="news_action">
+									<a href="#">Подробнее>></a>
+								</div>
+							</div>
+
+							<!-- News Item -->
+							<div class="news_item">
+								<h3 class="news_title"><a href="#">Какие межкомнатные двери лучше</a></h3>
+								<div class="news_date">17 апреля, 2022</div>
+								<div class="news_anons">Чтобы выбрать лучшую межкомнатную дверь, нужно учесть
+									особенности эксплуатации: микроклимат помещения, доступную площадь для открывания,
+									качество освещения — а также интерьер квартиры и бюджет на покупку. Специалисты
+									компании «Perfect Doors»…
+									Подробнее>></div>
+								<div class="news_action">
+									<a href="#">Подробнее>></a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="faq">
+						<a href="" class="section_title">Вопрос/ответ</a>
+						<div class="faq_block">
+
+							<!-- Faq Item -->
+							<div class="faq_item">
+								<div class="faq_question">
+									<div class="faq_number">1.</div>
+									<div class="question_text">Зачем нужен замерщик?</div>
+								</div>
+								<div class="faq_body">
+									Определить особенности вашего дверного проёма – это даст понимание, какая
+									комплектация понадобится (например: подойдёт ли стандартного размера дверь, нужны ли
+									доборы, порог и т.д.), а также у специалиста будет возможность ознакомится с
+									каталогом и отделочными материалами (цвет, покрытие дверей). Есть возможность
+									заключения договора непосредственно на объекте.
+								</div>
+							</div>
+
+
+
+							<!-- Faq Item -->
+							<div class="faq_item">
+								<div class="faq_question">
+									<div class="faq_number">2.</div>
+									<div class="question_text">Как производиться оплата? Есть ли рассрочка?</div>
+								</div>
+								<div class="faq_body">
+									Оплата производится как за наличный, так и за безналичный расчёт. Также можно
+									оплатить на карту Сбербанка или Тинькофф. Рассрочку можно оформить без процентов до
+									12 месяцев.
+								</div>
+							</div>
+
+							<!-- Faq Item -->
+							<div class="faq_item">
+								<div class="faq_question">
+									<div class="faq_number">3.</div>
+									<div class="question_text">Каков порядок оплаты?</div>
+								</div>
+								<div class="faq_body">
+									Согласно договору 50% аванс, остальное - после подписания акта приёма передачи
+									товара. Если так же заказывали монтажные работы оплата по договору исполнения
+									оплачивается после её реализации (т.е. произвели все работы, после оплатили и
+									подписали акт о выполненных работах)
+								</div>
+							</div>
+
+							<!-- Faq Item -->
+							<div class="faq_item">
+								<div class="faq_question">
+									<div class="faq_number">4.</div>
+									<div class="question_text">Все ли двери в наличии?</div>
+								</div>
+								<div class="faq_body">
+									90% всех представленных на сайте дверей всегда в наличии!
+								</div>
+							</div>
+
+							<!-- Faq Item -->
+							<div class="faq_item">
+								<div class="faq_question">
+									<div class="faq_number">5.</div>
+									<div class="question_text">Почему в некоторых случая при приезде замерщика
+										цена, названная им, отличается от цены, указанной
+										на сайте, в большую сторону?</div>
+								</div>
+								<div class="faq_body">
+									Из-за особенностей вашего дверного проёма: Касаемо входных дверей, чаще всего это
+									случается из-за того, что дверной проем имеет особенности, усложняющие монтаж и
+									требующие дополнительных работ для установки двери; Наращивание проёма (пеноблоком,
+									гипсокартоном, металлическим листом) под стандартную дверь, либо же его расширение.
+									Возможно усиление проёма сварочным либо деревянным каркасом. Говоря о межкомнатных
+									дверях: нужны ли доборы или нет (какая толщина стены), какая будет фурнитура
+									(запирание на фиксатор либо на ключ), система открывания (раздвижная, складная,
+									распашная), выбор покрытия.
+								</div>
+							</div>
+
+							<!-- Faq Item -->
+							<div class="faq_item">
+								<div class="faq_question">
+									<div class="faq_number">6.</div>
+									<div class="question_text">Может ли менеджер по телефону рассчитать стоимость двери?
+									</div>
+								</div>
+								<div class="faq_body">
+									Менеджер может посчитать ориентировочную цену двери, более точную цену может
+									посчитать мастер-замерщик после осмотра дверного проёма.
+								</div>
+							</div>
+
+							<!-- Faq Item -->
+							<div class="faq_item">
+								<div class="faq_question">
+									<div class="faq_number">7.</div>
+									<div class="question_text">Какая дверь лучше?</div>
+								</div>
+								<div class="faq_body">
+									Всё зависит от индивидуальных предпочтений и условий эксплуатации. Чтобы сделать
+									безошибочный выбор в пользу лучших условий для покупки мы рекомендуем обратиться к
+									менеджеру по телефону для расширенной консультации, либо вызвать специалиста с
+									каталогом и отделочными материалами, который порекомендует и покажет наглядно, а так
+									же замерит проёмы.
+								</div>
+							</div>
+
+						</div>
+						<div class="faq_action">
+							<button type="button" class="callback_btn button button_blue" data-bs-toggle="modal"
+								data-bs-target="#callBack2">Задать вопрос специалисту</button>
+						</div>
+
+						<div class="modal fade" id="callBack2" tabindex="-1" aria-labelledby="callBack2"
+							aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content callBack_bottom   position-relative">
+									<button type="button" class="btn-close position-absolute" data-bs-dismiss="modal"
+										aria-label="Закрыть"></button>
+
+									<div class="modal-body flex-column">
+										<h1 class="modal-title" id="callBack2">Оставьте заявку</h1>
+										<p>Наш менеджер свяжется с Вами в самое ближайшее время</p>
+										<form action="" class="d-flex flex-column">
+											<input type="text" name="" id="" placeholder="Введите имя" required>
+											<input type="tel" name="" id="" placeholder="Введите телефон" required>
+											<p class="modal-politic">Нажимая кнопку «Оставить заявку» вы соглашаетесь<a
+													href="">с политикой
+													конфиденциальности</span></p>
+													<button type="button" class="callback_btn button_blue button" data-bs-toggle="modal" data-bs-target="#callBack_bottom">Оставить заявку</button>
+										</form>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- MAP -->
+		<section class="map" id="map">
+			<script type="text/javascript" charset="utf-8" async
+				src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1d5e559d9b38db838e11d324ea20cf5b4977afcb10bb9b1ee297f6cbce9cc9fc&amp;width=100%25&amp;height=620&amp;lang=ru_RU&amp;scroll=false"></script>
+			<div class="container-table">
+				<div class="modal d-block overflow-visible">
+					<div class="working_table">
+						<div class="top_item">
+							<div class="top_left">
+								<ul>
+									<li><img src="fonts/vector3.svg" alt>Серпухов</li>
+									<li><img src="fonts/vector3.svg" alt>Чехов</li>
+									<li><img src="fonts/vector3.svg" alt>Подольск</li>
+									<li><img src="fonts/vector3.svg" alt>Видное</li>
+								</ul>
+								<ul>
+									<li><img src="fonts/vector3.svg" alt>Щербинка</li>
+									<li><img src="fonts/vector3.svg" alt>Домодедово</li>
+									<li><img src="fonts/vector3.svg" alt>Ступино</li>
+									<li><img src="fonts/vector3.svg" alt>Бутово</li>
+								</ul>
+							</div>
+							<div class="top_right">
+								<div class="top_right_title">
+									Салон в Подольске:
+								</div>
+								<div class="top_right_address">
+									Ул.Гайдара д.9 <br>
+									Ул.Ленинградская д.21
+								</div>
+							</div>
+						</div>
+						<div class="bottom_item">
+							<div class="work_time_title">
+								График работы:
+							</div>
+							<div class="work_time">
+								С 10:00 До 20:00
+							</div>
+							<div class="work_day">
+								Без выходных
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- FOOTER -->
+		<footer>
+			<div class="container">
+				<div class="footer_logo">
+					<a href="index.html"><img src="fonts/footer_logo.svg" alt></a>
+				</div>
+				<div class="footer_row">
+
+					<div class="footer_item">
+						<div class="footer_title">Входные двери</div>
+						<ul>
+							<li><a href="#">Эконом от 13.000</a></li>
+							<li><a href="#">Стандарт от 24.000</a></li>
+							<li><a href="#">Премиум от 36.000</a></li>
+							<li><a href="#">В частный дом</a></li>
+							<li><a href="#">В квартиру</a>
+							<li><a href="#">С зеркалом</a>
+							<li><a href="#">С терморазрывом</a></li>
+							<li><a href="#">Противопожарные двери</a></li>
+							<li><a href="#">Распродажа</a></li>
+						</ul>
+					</div>
+
+					<div class="footer_item">
+						<div class="footer_title">Межкомнатные двери</div>
+						<ul>
+							<li><a href="#">Экошпон</a></li>
+							<li><a href="#">Финиш Флекc</a></li>
+							<li><a href="#">Хард Флекс</a></li>
+							<li><a href="#">Шпонированные</a></li>
+							<li><a href="#">Из массива</a></li>
+							<li><a href="#">CPL</a></li>
+							<li><a href="#">ПВХ-пленка</a></li>
+							<li><a href="#">Эмалит</a></li>
+							<li><a href="#">Эмаль</a></li>
+							<li><a href="#">Раздвижные двери</a></li>
+							<li><a href="#">Складные двери</a></li>
+							<li><a href="#">Арки и порталы</a></li>
+							<li><a href="#">Распродажа</a></li>
+						</ul>
+					</div>
+
+					<div class="footer_item">
+						<div class="footer_title">Клиентам</div>
+						<ul>
+							<li><a href="tips.html">Акции</a></li>
+							<li><a href="tips.html">Полезные советы</a></li>
+							<li><a href="tips.html">Отзывы</a></li>
+							<li><a href="contacts.html">Контакты</a></li>
+							<li><a href="terms of use.html">Политика конфиденциальности</a></li>
+							<li><a href="terms_of_return.html">Условия возврата и обмена</a></li>
+							<li><a href="delivery.html">Доставка и оплата</a></li>
+							<li><a href="#">Установка</a></li>
+							<li><a href="#">Портфолио</a></li>
+							<li><a href="about_us.html">О компании</a></li>
+						</ul>
+					</div>
+
+					<div class="footer_item">
+						<div class="phone">
+							<a href="tel:+74991122173"><img src="fonts/footer_phone.svg" alt></a>
+							<div class="number">
+								Бесплатная консультация
+								<a href="tel:+74991122173">+7(499)112 21 73</a>
+							</div>
+						</div>
+						<div class="requisites_row">
+
+							<div class="requisites_item">
+								<div class="title">
+									Наименование организации
+								</div>
+								<div class="description">
+									ИП Сергеева Татьяна Константиновна
+								</div>
+							</div>
+
+							<div class="requisites_item">
+								<div class="title">
+									Полное наименование организации
+								</div>
+								<div class="description">
+									PERFECT DOORS
+								</div>
+							</div>
+
+							<div class="requisites_item">
+								<div class="title">
+									Юридический и фактический адрес
+								</div>
+								<div class="description">
+									Московская обл. г. Подольск, ул. Свердлова, 50, 69
+								</div>
+							</div>
+
+							<div class="requisites_item">
+								<div class="title">
+									ОГРНИП
+								</div>
+								<div class="description">318507400011290</div>
+							</div>
+						</div>
+
+						<div class="mail">
+							<a href="mailto:dveriperfect@gmail.com"><img src="fonts/footer_mail.svg" alt>
+								dveriperfect@gmail.com</a>
+						</div>
+
+						<div class="vk_link">
+							<a href="#">Мы во Вконтакте <img src="fonts/vk_icon.svg" alt></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+	<div class="modal fade" id="callBack_bottom" tabindex="-1" aria-labelledby="callBack_bottom" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content callBack_bottom position-relative">
+				<button type="button" class="btn-close position-absolute" data-bs-dismiss="modal"
+					aria-label="Закрыть"></button>
+
+				<div class="modal-body img_modal flex-column">
+					<h1 class="modal-title" id="callBack_bottom">Спасибо за обращение!</h1>
+					<p>Наш специалист свяжемся с Вами в самое ближайшее время</p>
+					<!-- <form action="" class="d-flex flex-column">
+						<a data-bs-dismiss="modal" class="button button_blue" href="#">Перейти в католог</a>
+					</form> -->
+				</div>
+				<div class="overflow-hidden">
+					<img class="img_modal1" src="./images/img_modal.png" alt="">
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+		crossorigin="anonymous"></script>
+		<script src="js/jquery-3.6.1.min.js"></script>
+		<script src="js/lightgallery.min.js"></script>
+		<script src="js/lg-zoom.umd.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/ion.rangeSlider.min.js"></script>
+		<script src="js/micromodal.min.js"></script> 
+		<script src="js/bootstrap-datepicker.js"></script>
+	<script src="js/bootstrap-datepicker.ru.min.js"></script>
+	<script src="js/main.js"></script>
+	
+
+</body>
+
+</html>
