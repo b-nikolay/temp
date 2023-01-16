@@ -1145,6 +1145,7 @@ header .mobile_header {
     position: relative;
     display: block;
     height: 100%;
+    top: -2px;
   }
   header .mobile_header .mobile_header_bottom .header_menu .menu_toggler span {
     display: block;
