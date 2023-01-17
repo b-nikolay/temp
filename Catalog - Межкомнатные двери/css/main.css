@@ -350,6 +350,320 @@ section.pt_mobile {
   flex: 0 0 auto;
   width: 50%;
 }
+.modal_title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  color: #202020;
+  margin-bottom: 15px;
+}
+
+.modal_descripton {
+  font-size: 16px;
+  line-height: 19px;
+  color: #93a2ab;
+  margin-bottom: 40px;
+}
+
+.modal__close {
+  background: transparent;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  background: #f9f9fa;
+  border-radius: 15px;
+  outline: none;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.modal__content {
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/**************************\
+Demo Animation Style
+\**************************/
+@keyframes mmfadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes mmfadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes mmslideIn {
+  from {
+    transform: translateY(15%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes mmslideOut {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10%);
+  }
+}
+.micromodal-slide {
+  visibility: hidden;
+}
+
+
+.callBack_bottom {
+  width: 400px;
+  margin: auto;
+}
+#callBack_bottom .modal-dialog {
+  margin-top: 15rem;
+}
+.modal-body-measure {
+  padding: 37px 52px 75px;
+  will-change: transform;
+  width: 800px;
+}
+.modal-body-measure:after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 50%;
+  background: #f9f9fa;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.modal-title-measure,
+.modal-title-measure + p {
+  text-align: center;
+  font: 16px/19px Roboto;
+}
+.modal-title-measure + p > span {
+  color: #00a2fc;
+}
+.modal-measure-chooseDate {
+  color: #202020;
+  font: 14px/16px Roboto;
+  padding-bottom: 20px;
+}
+.modal-body-measure {
+  border-radius: 0px 4px 4px 0px;
+}
+.modal-measure-form input,
+.modal-measure-form textarea {
+  width: 300px;
+  background-color: #fff;
+}
+.modal-content {
+  background: #ffffff;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4) !important;
+  border-radius: 4px !important;
+}
+.modal-body {
+  margin: 47px 50px 68px !important;
+  padding: 0 !important;
+  max-width: 300px;
+}
+
+.img_modal {
+  margin-bottom: 8px !important;
+}
+.img_modal1 {
+  height: 191px;
+  width: 398px;
+}
+.modal-title {
+  font: 700 24px/130% Roboto !important;
+  color: #202020;
+}
+.modal-title + p {
+  color: #93a2ab !important;
+  padding: 15px 0 40px !important;
+  margin: 0 !important;
+}
+.modal-politic {
+  color: #475569;
+  padding: 20px 0;
+  margin: 0 !important;
+  font: 12px/140% Roboto !important;
+}
+.modal-politic > a {
+  color: #00a2fc;
+  text-decoration: none;
+}
+.datepicker-switch {
+  color: #475569;
+  font: 400 16px/19px Roboto !important;
+}
+#callBack .modal-dialog {
+  margin-top: 15rem;
+  
+}
+.row > * {
+  padding-left: 0;
+}
+ #call_measurement .modal-dialog {
+  margin-top: 8rem;
+  margin-left: 35rem !important;
+  margin-right: auto !important;
+ }
+.datepicker-days tbody th,
+.datepicker-days tbody td {
+  color: #93a2ab;
+  font: 400 16px/19px Roboto !important;
+  width: 30px !important;
+  height: 30px !important;
+  background: #f9f9fa;
+  border-radius: 4px;
+  padding: 5px;
+  display: inline-block;
+}
+.modal-measure-form {
+  margin-left: 50px;
+}
+.button_blue {
+  white-space: nowrap;
+}
+.datepicker-days thead th {
+  width: auto !important;
+  margin: 0 !important;
+}
+.datepicker-days thead th:hover {
+  background-color: white !important;
+}
+.datepicker-days thead tr {
+  justify-content: space-between;
+}
+.datepicker-days thead tr + tr {
+  margin-top: 20px;
+}
+.datepicker-days tbody th.day,
+.datepicker-days tbody td.day {
+  color: #202020 !important;
+}
+.datepicker-days tbody th.old,
+.datepicker-days tbody td.old {
+  color: #d6dfe4 !important;
+}
+.datepicker-days tbody tr {
+  margin-top: 10px !important;
+}
+.datepicker td {
+  background-color: transparent;
+}
+.datepicker td:hover,
+.datepicker td.active {
+  background-color: #00a2fc !important;
+  color: #fff !important;
+  background-image: none !important;
+}
+
+.datepicker-days td + td,
+.datepicker-days th + th {
+  margin-left: 13px;
+}
+#callBack .modal-dialog {
+  margin-top: 15rem;
+  
+}
+
+.measure-left {
+  min-width: 50%;
+}
+input {
+  background: #f9f9fa;
+  border-radius: 4px;
+  font: 14px/16px Roboto !important;
+  color: #93a2ab;
+  padding: 14px 20px !important;
+  border: none;
+  width: 100%;
+  border: 1px solid transparent;
+}
+.table-condensed tr {
+  display: flex;
+}
+input + input {
+  margin-top: 10px;
+}
+.btn_modal {
+  padding: 16px 78px !important;
+  color: #fff !important;
+  font: 700 18px/97% Roboto !important;
+  background: #00a2fc !important;
+  border-radius: 4px !important;
+  white-space: nowrap !important;
+}
+button:hover.btn_modal {
+  background-color: #475569 !important;
+}
+.btn-close {
+  width: 30px !important;
+  height: 30px !important;
+  top: 20px;
+  right: 20px;
+  background: url(../images/modal_close.svg) rgb(249, 249, 250)
+    center center !important;
+  background-repeat: no-repeat !important;
+  border-radius: 50% !important;
+  margin-left: auto !important;
+  padding: 0 !important;
+}
+body *{
+  text-decoration: none !important;
+}
+.btn-close-measure {
+  background-color: #fff !important;
+}
+.header_bottom .modal-content,
+.director_texts .modal-content {
+  width: 380px;
+  margin: auto;
+}
+.btn-close:focus {
+  box-shadow: none !important;
+}
+.btn-close:hover {
+  background-color: rgb(249, 249, 250) !important;
+}
+button.btn_measure {
+  padding: 16px 61px !important;
+  width: 100% !important;
+}
+textarea {
+  border: 1px solid transparent;
+  resize: none;
+  width: auto;
+  height: 100px;
+  padding: 15px 20px;
+  background: #f9f9fa;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  margin-top: 10px;
+}
+textarea:focus {
+  outline: 0;
+  border: 1px solid #00a2fc;
+}
+
+
 @media (max-width: 1000px) {
   .modal__container.modal_lg .calendar_block,
 .modal__container.modal_lg .form_block {
@@ -862,6 +1176,9 @@ header .header_bottom .row .header_callback .callback_btn {
     padding: 12px 20px;
   }
 }
+.mobile_header_top .container .row .header_logo, .mobile_header_top .container .row .header_phone {
+  width: auto;
+}
 @media (max-width: 1200px) {
   header .header_bottom {
     display: none;
@@ -875,6 +1192,8 @@ header .mobile_header {
 @media (max-width: 1200px) {
   header .mobile_header {
     display: block;
+  }
+  .header_phone {
   }
   header .mobile_header .row {
     justify-content: space-between;
@@ -906,6 +1225,90 @@ header .mobile_header {
     gap: 0;
   }
 }
+
+
+#callBack_bottom .modal-dialog {
+  margin-top: 15rem;
+}
+.modal-body-measure {
+  padding: 37px 52px 75px;
+  will-change: transform;
+  width: 800px;
+}
+.modal-body-measure:after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 50%;
+  background: #f9f9fa;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.modal-title-measure,
+.modal-title-measure + p {
+  text-align: center;
+  font: 16px/19px Roboto;
+}
+.modal-title-measure + p > span {
+  color: #00a2fc;
+}
+.modal-measure-chooseDate {
+  color: #202020;
+  font: 14px/16px Roboto;
+  padding-bottom: 20px;
+}
+.modal-body-measure {
+  border-radius: 0px 4px 4px 0px;
+}
+.modal-measure-form input,
+.modal-measure-form textarea {
+  width: 300px;
+  background-color: #fff;
+}
+.modal-content {
+  background: #ffffff;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4) !important;
+  border-radius: 4px !important;
+}
+.modal-body {
+  margin: 47px 50px 68px !important;
+  padding: 0 !important;
+  max-width: 300px;
+}
+
+.img_modal {
+  margin-bottom: 8px !important;
+}
+.img_modal1 {
+  height: 191px;
+  width: 398px;
+}
+.modal-title {
+  font: 700 24px/130% Roboto !important;
+  color: #202020;
+}
+.modal-title + p {
+  color: #93a2ab !important;
+  padding: 15px 0 40px !important;
+  margin: 0 !important;
+}
+.modal-politic {
+  color: #475569;
+  padding: 20px 0;
+  margin: 0 !important;
+  font: 12px/140% Roboto !important;
+}
+.modal-politic > a {
+  color: #00a2fc;
+  text-decoration: none;
+}
+.datepicker-switch {
+  color: #475569;
+  font: 400 16px/19px Roboto !important;
+}
+
 @media (max-width: 1200px) {
   header .mobile_header .mobile_header_bottom .header_menu {
     height: 30px;
@@ -3773,6 +4176,49 @@ footer .footer_row .footer_item .vk_link a {
 @media (max-width: 767px) {
   .product_view .product_characteristics .block_title {
     margin-bottom: 30px;
+  }
+}
+@media (max-width: 1200px) {
+  .modal-body-measure:after {
+    height: 100%;
+    width: 100%;
+    top: 49%;
+    bottom: 0;
+  }
+  .modal-body-measure,
+  .modal-measure {
+    width: 600px;
+  }
+  .modal {
+    --bs-modal-width: 600px;
+  }
+  .measure {
+    flex-wrap: wrap;
+    row-gap: 40px;
+    justify-content: center;
+  }
+  .modal-measure-chooseDate {
+    text-align: center;
+  }
+  .modal-measure-form form {
+    max-width: 300px;
+  }
+  .modal-measure {
+    max-height: 1005px;
+    overflow: hidden;
+  }
+  .measure-left,
+  .modal-measure-form {
+    width: 300px;
+  }
+  .modal-title + p {
+    padding-bottom: 30px !important;
+  }
+  .modal-measure-form {
+    margin-left: 0;
+  }
+  .catalogue__grid__last img {
+    width: 100%;
   }
 }
 .product_view .product_characteristics .characteristics_table tr td {

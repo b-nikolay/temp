@@ -7,6 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="css/ion.rangeSlider.min.css">
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
@@ -106,15 +110,36 @@
 								</ul>
 							</div>
 						</div>
-						<div class="header_callback">
-							<a href="#" class="favorites"> <img src="fonts/hearth.svg" alt>Избранное</a>
-							<!-- <button type="button" class="callback_btn" data-bs-toggle="modal"
-								data-bs-target="#callBack">Заказать
-								звонок</button> -->
-                                <button type="button" class="callback_btn" data-bs-toggle="modal"
-								data-bs-target="#callBack">Заказать
-								звонок</button>
-						</div>
+				        <div class="header_callback">
+                            <a href="#" class="favorites"> <img src="fonts/hearth.svg" alt>Избранное</a>
+                            <button type="button" class="callback_btn" data-bs-toggle="modal"
+                                data-bs-target="#callBack">Заказать
+                                звонок</button>
+                        </div>
+    
+                        <div class="modal fade" id="callBack" tabindex="-1" aria-labelledby="callBack"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content position-relative">
+                                    <button type="button" class="btn-close position-absolute" data-bs-dismiss="modal"
+                                        aria-label="Закрыть"></button>
+    
+                                    <div class="modal-body flex-column">
+                                        <h1 class="modal-title" id="callBack">Оставьте заявку</h1>
+                                        <p>Наш менеджер свяжется с Вами в самое ближайшее время</p>
+                                        <form action="" class="d-flex flex-column">
+                                            <input type="text" name="" id="" placeholder="Введите имя" required>
+                                            <input type="tel" name="" id="" placeholder="Введите телефон" required>
+                                            <p class="modal-politic">Нажимая кнопку «Оставить заявку» вы соглашаетесь<a
+                                                    href="">с политикой
+                                                    конфиденциальности</span></p>
+                                        <button type="button" class="callback_btn button_blue button" data-bs-toggle="modal" data-bs-target="#callBack_bottom">Перезвоните мне</button>
+                                        </form>
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
 
 					
 
@@ -361,8 +386,49 @@
                                 <div class="description">Закажите бесплатный замер и мы рассчитаем Вам установку этой двери!</div>
                             </div>
                             <div class="measure_action">
-                                <button class="button button_blue">Вызвать замерщика</button>
+                                <button type="button" class="callback_btn button button_blue " data-bs-toggle="modal"
+                                data-bs-target="#call_measurement">Вызвать замерщика</button>
                             </div>
+
+
+                            <div class="modal fade" id="call_measurement" tabindex="-1" aria-labelledby="call_measurement"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content modal-measure">
+
+
+                                    <div class="modal-body-measure position-relative flex-column ">
+                                        <button type="button" class="z-2 btn-close btn-close-measure position-absolute"
+                                            data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                                        <h1 class="modal-title modal-title-measure" id="call_measurement">Вызов
+                                            замерщика</h1>
+                                        <p>Стоимость замера <span>1000 руб</span> - высчитывается из суммы заказа.</p>
+                                        <div class="d-flex measure">
+                                            <div class="measure-left">
+                                                <p class="modal-measure-chooseDate">Выберите желаемую дату</p>
+                                                <div class="calendar_view"></div>
+                                            </div>
+                                            <div class="modal-measure-form">
+                                                <p class="modal-measure-chooseDate">Заполните форму</p>
+                                                <form action="">
+                                                    <input type="text" name="" id="" placeholder="Введите имя">
+                                                    <input type="tel" name="" id="" placeholder="Введите телефон">
+                                                    <input type="text" name="" id="" placeholder="Введите адрес">
+                                                    <textarea name="" id=""
+                                                        placeholder="Оставьте комментарий"></textarea>
+                                                    <p class="modal-politic">Нажимая кнопку «Оставить заявку» вы
+                                                        соглашаетесь <a href="">с политикой конфиденциальности</span>
+                                                    </p>
+                                                    <button type="button" class="callback_btn button_blue button" data-bs-toggle="modal" data-bs-target="#callBack_bottom">Вызвать замерщика</button>
+                                                </form>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
                         </div>
 
                         <div class="product_advantages">
@@ -765,7 +831,7 @@
                             Нажимая кнопку «Оставить заявку» вы <br> соглашаетесь <a href="#">с политикой конфиденциальности</a> 
                         </div>
                         <div class="form_item">
-                            <button class="button button_blue">Оставить заявку</button>
+                            <button type="button" class="callback_btn button_blue button" data-bs-toggle="modal" data-bs-target="#callBack_bottom">Перезвоните мне</button>
                         </div>
                     </form>
                 </div>
@@ -773,52 +839,28 @@
         </div>
     </div>
 
-    <div class="micromodal-slide modal" id="call_measurement" aria-hidden="true">
-        <div class="modal__overlay no_mobile_pd" tabindex="-1" data-micromodal-close>
-            <div class="modal__container modal_lg" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
-                <header class="modal__header">
-                    <button class="modal__close" aria-label="Close modal" data-micromodal-close>
-                        <img src="fonts/modal_close.svg" alt>
-                    </button>
-                </header> 
+    <div class="modal fade" id="callBack_bottom" tabindex="-1" aria-labelledby="callBack_bottom" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content callBack_bottom position-relative">
+				<button type="button" class="btn-close position-absolute" data-bs-dismiss="modal"
+					aria-label="Закрыть"></button>
 
-                <div class="modal__content">
-                    <div class="modal_title">Вызов замерщика</div>
-                    <div class="modal_descripton">Стоимость замера <span>1000 руб</span> - высчитывается из суммы заказа.</div>
-                    <form class="modal_form">
-                        <div class="row">
-                            <div class="calendar_block">
-                                <div class="form_title">Выберите желаемую дату</div>
-                                <div class="calendar_view"></div>
-                            </div>
-                            <div class="form_block">
-                                <div class="form_title">Заполните форму </div>
-                                <div class="form_item">
-                                    <input type="text" placeholder="Введите имя" name="name">
-                                </div>
-                                <div class="form_item">
-                                    <input type="tel" placeholder="Введите телефон" name="tel">
-                                </div>
-                                <div class="form_item">
-                                    <input type="text" placeholder="Введите адрес" name="adress">
-                                </div>
-                                <div class="form_item">
-                                    <input type="text" placeholder="Оставьте комментарий" name="comments">
-                                </div>
-                                <div class="form_item agreement">
-                                    Нажимая кнопку «Оставить заявку» вы <br> соглашаетесь <a href="#">с политикой конфиденциальности</a> 
-                                </div>
-                                <div class="form_item">
-                                    <button class="button button_blue call_to_measure">Вызвать замерщика</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    
+				<div class="modal-body img_modal flex-column">
+					<h1 class="modal-title" id="callBack_bottom">Спасибо за обращение!</h1>
+					<p>Наш специалист свяжемся с Вами в самое ближайшее время</p>
+					<!-- <form action="" class="d-flex flex-column">
+						<a data-bs-dismiss="modal" class="button button_blue" href="#">Перейти в католог</a>
+					</form> -->
+				</div>
+				<div class="overflow-hidden">
+					<img class="img_modal1" src="./images/img_modal.png" alt="">
+				</div>
+
+			</div>
+		</div>
+	</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
     <script src="js/jquery-3.6.1.min.js"></script>
     <script src="js/lightgallery.min.js"></script>
     <script src="js/lg-zoom.umd.min.js"></script>

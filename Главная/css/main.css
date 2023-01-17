@@ -7467,6 +7467,12 @@ margin-top: 10px;
   }
 
 }
+.mobile_header_top .container .row > * {
+  width: auto;
+}
+.row > * {
+  padding-right: 0;
+}
 @media (max-width: 768px) {
   .help_choose .container, 
   .steps .container, 
