@@ -4065,10 +4065,10 @@ footer .footer_row .footer_item .vk_link a {
   display: none;
 }
 .product_view .product_info .product_colors .colors_block .color_item input:checked ~ .border {
-  border-color: #00A2FC;
+  border-color: #00A2FC !important;
 }
 .product_view .product_info .product_colors .colors_block .color_item .border {
-  border: 4px solid #F9F9FA;
+  border: 4px solid #F9F9FA !important;
   display: flex;
   border-radius: 4px;
   transition: 0.3s all ease;
@@ -6551,4 +6551,131 @@ margin-top: 10px;
 }
 .product_categories-one:hover {
   color: #475569;
+}
+@media (max-width: 555px) {
+  .modal-body-measure,
+  .modal-measure,
+  .modal-dialog,
+  .modal-content {
+    width: 100% ;
+    height: 100% ;
+  }
+  .modal-content {
+    max-width: 100% !important;
+  }
+  .modal-measure {
+    height: auto;
+  }
+  .modal {
+    --bs-modal-width: 100%;
+    --bs-modal-margin: 0;
+  }
+  .header_bottom .modal-content,
+  .director_texts .modal-content {
+    width: 100%;
+  }
+  .modal-content {
+    border-radius: 0 !important;
+  }
+  textarea,
+  .btn_modal {
+    width: 100%;
+  }
+  .location .row .location_adresses {
+    column-count: 2;
+    column-width: 140px;
+    column-gap: 10px;
+    display: block;
+    width: 100% !important;
+  }
+  .location .row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .location .row .show_map {
+    position: relative;
+    top: 2px;
+  }
+  .location .row .location_adresses li,
+  .location .row .show_map {
+    padding-top: 10px;
+  }
+  .show_map a {
+    margin-left: 0 !important;
+  }
+  .catalogue__grid__last img {
+    width: auto;
+  }
+  .img_modal {
+    margin-bottom: 100px !important;
+    margin-top: 140px !important;
+    
+  }
+  .img_modal1 {
+    width: 100%;
+  }
+}
+@media (max-width: 425px) {
+  .modal-body-measure,
+  .modal-measure,
+  .modal-dialog,
+  .modal-content {
+    width: 100% ;
+    height: 100% ;
+  }
+  #callBack_bottom .modal-dialog {
+    margin-top: 0;
+  }
+  .modal-measure {
+    height: auto;
+  }
+  .modal {
+    --bs-modal-width: 100%;
+    --bs-modal-margin: 0;
+  }
+  .header_bottom .modal-content,
+  .director_texts .modal-content {
+    width: 100%;
+  }
+  .modal-content {
+    border-radius: 0 !important;
+  }
+  textarea,
+  .btn_modal {
+    width: 100%;
+  }
+  .location .row .location_adresses {
+    column-count: 2;
+    column-width: 140px;
+    column-gap: 10px;
+    display: block;
+    width: 100% !important;
+  }
+  .location .row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .location .row .show_map {
+    position: relative;
+    top: 2px;
+  }
+  .location .row .location_adresses li,
+  .location .row .show_map {
+    padding-top: 10px;
+  }
+  .show_map a {
+    margin-left: 0 !important;
+  }
+  .catalogue__grid__last img {
+    width: auto;
+  }
+  .img_modal {
+    margin-bottom: 100px !important;
+    margin-top: 140px !important;
+    
+  }
+  #call_measurement .modal-dialog {
+    margin: 0 !important;
+  }
+
 }
