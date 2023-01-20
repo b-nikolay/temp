@@ -1127,6 +1127,10 @@
     <script src="js/micromodal.min.js"></script>
     <script src="js/main.js"></script>
     <script>
+                jQuery('a').on('click', function (e) {
+    e.preventDefault(); 
+ 
+});
         const swiper = new Swiper('.swiper', {
             autoplay: {
                 delay: 3000,

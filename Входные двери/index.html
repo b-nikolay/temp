@@ -1133,6 +1133,10 @@
     <script src="js/bootstrap-datepicker.ru.min.js"></script>
     <script src="js/main.js"></script>
     <script>
+        jQuery('a').on('click', function (e) {
+    e.preventDefault(); 
+ 
+});
         const swiper = new Swiper('.swiper', {
             autoplay: {
                 delay: 3000,
