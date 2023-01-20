@@ -28,9 +28,6 @@ $(document).ready(function(e){
     const porfolioSlider = new Swiper('.portfolio_slider .swiper', {
         // Optional parameters
         slidesPerView: 4,
-        autoplay: {
-            delay: 3000,
-          },
         direction: 'horizontal',
         loop: true,
         spaceBetween: 20,
@@ -53,31 +50,25 @@ $(document).ready(function(e){
         },
     });
 
-
-    
-
     // Last Seen Products
     const lastSeen = new Swiper('.last_seen_slider .swiper', {
         // Optional parameters
-        slidesPerView: 5,    
-        autoplay: {
-            delay: 3000,
-          },
+        slidesPerView: 5,
         direction: 'horizontal',
         loop: true,
+        spaceBetween: 20,
         breakpoints:{
             0:{
                 slidesPerView: 1,
             },
             768:{
-                slidesPerView: 3,
-                navigation: false,
+                slidesPerView: 2,
             },
             1200:{
-                slidesPerView: 4,
+                slidesPerView: 3,
             },
             1400:{
-                slidesPerView: 5,
+                slidesPerView: 3,
             }
         },
       
@@ -99,7 +90,6 @@ $(document).ready(function(e){
             slidesPerView: 2,
             loop: true,
             spaceBetween: 20,
-        
             navigation: {
                 nextEl: $this.parent().find('.slide_next')[0],
                 prevEl: $this.parent().find('.slide_prev')[0],
@@ -217,7 +207,6 @@ $(document).ready(function(e){
     }
 
 
-    
     if(menuToggler.length > 0){
         menuToggler.on('click',function(e){
             e.preventDefault();
@@ -274,26 +263,6 @@ $(document).ready(function(e){
         $('.mobile_search').removeClass('show');
         $('.sub_category_2').addClass('show')
     })
-    // if(menuToggler.length > 0){
-    //     menuToggler.on('click',function(e){
-    //         e.preventDefault();
-    //         $('.mobile_menu').toggleClass('show');
-
-    //         $('.mobile_search').removeClass('show')
-            
-    //         if($('.sub_category').hasClass('show')){
-    //             $('.sub_category').removeClass('show');
-    //         }
-
-    //         if($('.mobile_menu').hasClass('show') || $('.sub_category').hasClass('show')){
-    //             $('body').addClass('mobile_menu_open');
-    //             $(this).addClass('opened')
-    //         }else{
-    //             $('body').removeClass('mobile_menu_open');
-    //             $(this).removeClass('opened')
-    //         }
-    //     })
-    // }
 
     // if(subCategory.length > 0){
     //     subCategory.on('click',function(e){

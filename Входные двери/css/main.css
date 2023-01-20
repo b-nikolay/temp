@@ -7545,3 +7545,8 @@ left: -30px;
   
   }
   
+
+  #callBack .modal-dialog .callback_btn{
+    padding-right: 70px  !important;
+    padding-left: 70px !important;
+  }

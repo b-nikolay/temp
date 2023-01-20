@@ -37,6 +37,7 @@ button {
 .catalogue__grid__last,
 .product_item {
   height: 350px;
+  width: 99%;
 }
 .catalogue__grid__last:hover {
   cursor: pointer;
@@ -7201,4 +7202,9 @@ header
 transform: rotate(180deg);
 
 background-color: #fff;
+}
+
+#callBack .modal-dialog .callback_btn{
+  padding-right: 70px  !important;
+  padding-left: 70px !important;
 }

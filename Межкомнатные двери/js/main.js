@@ -62,13 +62,13 @@ $(document).ready(function(e){
                 slidesPerView: 1,
             },
             768:{
-                slidesPerView: 3,
+                slidesPerView: 2,
             },
             1200:{
-                slidesPerView: 4,
+                slidesPerView: 3,
             },
             1400:{
-                slidesPerView: 5,
+                slidesPerView: 3,
             }
         },
       
@@ -207,7 +207,6 @@ $(document).ready(function(e){
     }
 
 
-    
     if(menuToggler.length > 0){
         menuToggler.on('click',function(e){
             e.preventDefault();
@@ -264,6 +263,16 @@ $(document).ready(function(e){
         $('.mobile_search').removeClass('show');
         $('.sub_category_2').addClass('show')
     })
+
+    // if(subCategory.length > 0){
+    //     subCategory.on('click',function(e){
+    //         e.preventDefault();
+    //         $('.mobile_menu').removeClass('show');
+    //         $('.mobile_search').removeClass('show');
+    //         $('.sub_category').addClass('show')
+    //     })
+    // }
+
     // Micromodal
     MicroModal.init({
         disableScroll: true,
@@ -282,4 +291,5 @@ $(document).ready(function(e){
         e.preventDefault();
         MicroModal.show('call_measurement');
     })
+    
 })
