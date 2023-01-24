@@ -7483,6 +7483,7 @@ margin-top: 10px;
   .advantages .container, footer .container {
     padding: 0px 5px !important;
   }
+
   .mobile_header_top .container .row > * {
     padding: 0 3px;
   }
@@ -7656,7 +7657,6 @@ left: -30px;
   }
 }
 
-
 header .header_bottom .row .header_filter .filter_buttons .dropdown > a::before {
   /* content: url(../fonts/dropdown_arrow.svg); */
   content: '';
@@ -7668,6 +7668,8 @@ header .header_bottom .row .header_filter .filter_buttons .dropdown > a::before 
   transform: translateY(-2px);
   transform: translateX(-2px);
   background-color: #475569;
+  -webkit-mask: url(../fonts/dropdown_arrow.svg) no-repeat 50% 50%;
+  -webkit-mask-size: cover;
 }
 header
 .header_bottom

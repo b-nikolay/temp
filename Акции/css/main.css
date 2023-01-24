@@ -113,6 +113,7 @@ body.mobile_menu_open::after {
 }
 .callBack_bottom {
   width: 400px;
+  margin: auto;
 }
 .modal-body-measure {
   padding: 37px 52px 75px;
@@ -167,6 +168,7 @@ body.mobile_menu_open::after {
 .img_modal1 {
   height: 191px;
   width: 398px;
+  width: 100%;
 }
 .modal-title {
   font: 700 24px/130% Roboto !important;
@@ -943,6 +945,7 @@ header .header_bottom .row .header_filter .filter_buttons .dropdown > a::before 
   display: block;
   transform: translateY(-2px);
 }
+
 header .header_bottom .row .header_filter .filter_buttons .dropdown ul {
   position: absolute;
   max-width: 475px;
@@ -1083,6 +1086,7 @@ header .mobile_header {
     position: relative;
     display: block;
     height: 100%;
+    top: -2px;
   }
   header .mobile_header .mobile_header_bottom .header_menu .menu_toggler span {
     display: block;
@@ -6276,6 +6280,8 @@ header .header_bottom .row .header_filter .filter_buttons .dropdown > a::before 
   transform: translateY(-2px);
   transform: translateX(-2px);
   background-color: #475569;
+  -webkit-mask: url(../fonts/dropdown_arrow.svg) no-repeat 50% 50%;
+  -webkit-mask-size: cover;
 }
 header
 .header_bottom
