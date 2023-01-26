@@ -302,7 +302,7 @@ section.pt_mobile {
     margin-bottom: 60px;
   }
   section.pt_mobile {
-    padding-top: 60px;
+    padding-top: 30px;
   }
 }
 
@@ -4219,6 +4219,7 @@ footer .footer_row .footer_item .vk_link a {
     height: 40%;
     left: -10px;
     top: 620px;
+    
   }
 }
 @media (max-width: 1200px) {
@@ -4368,6 +4369,7 @@ footer .footer_row .footer_item .vk_link a {
 @media (max-width: 767px) {
   .about_us {
     margin: 71px 0;
+    margin-top: 0;
   }
 }
 
