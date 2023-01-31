@@ -155,6 +155,20 @@ iframe >  html > body {
     width: 100% !important;
   } */
 }
+@media (max-width: 900px) {
+
+  #sw-app-eb12ea309e6de069c1f94b5dedd55f5c .sw-app-body, #sw-app-eb12ea309e6de069c1f94b5dedd55f5c {
+    width: 325px !important;
+    position: relative;
+    left: 0px !important;
+  }
+  .ya-wid  {
+    width: 100% !important;
+  }
+  /* #sw-app-eb12ea309e6de069c1f94b5dedd55f5c {
+    width: 100% !important;
+  } */
+}
 
 .breadcrumbs ul {
   display: flex;
