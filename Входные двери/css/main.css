@@ -7553,3 +7553,6 @@ left: -30px;
     padding-right: 70px  !important;
     padding-left: 70px !important;
   }
+  .img_modal {
+    margin-bottom: 8px !important;
+  }

@@ -961,6 +961,9 @@ header .mobile_header {
     gap: 85px;
   }
 }
+.img_modal {
+  margin-bottom: 8px !important;
+}
 .img_modal1 {
   height: 191px;
   width: 398px;

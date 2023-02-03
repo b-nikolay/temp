@@ -81,7 +81,7 @@ body.mobile_menu_open::after {
 }
 
 .container {
-  max-width: 1280px;
+  max-width: 1320px;
   margin: 0 auto;
 }
 @media (max-width: 1300px) {

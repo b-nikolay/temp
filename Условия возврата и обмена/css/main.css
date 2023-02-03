@@ -865,6 +865,10 @@ header .header_bottom .row .header_filter .filter_buttons .dropdown ul a:hover {
   background-color: transparent;
   color: #202020;
 }
+
+.img_modal {
+  margin-bottom: 8px !important;
+}
 .img_modal1 {
   height: 191px;
   width: 398px;
@@ -6155,7 +6159,7 @@ margin-top: 10px;
   color: #475569;
 }
 .callBack_bottom {
-  width: 400px;
+  width: 400px !important;
   margin: auto;
 }
 header .header_bottom .row .header_filter .filter_buttons .dropdown > a::before {

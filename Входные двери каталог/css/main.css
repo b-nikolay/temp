@@ -13,6 +13,7 @@ p,
 .img_modal1 {
   width: 100%;
 }
+
 header
   .header_bottom
   .row
@@ -7178,6 +7179,9 @@ left: -30px;
     
   }
 
+}
+.img_modal {
+  margin-bottom: 8px !important;
 }
 @media (max-width: 650px) {
   .img_salee_mobile {
