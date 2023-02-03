@@ -93,7 +93,7 @@ header {
 }
 
 .img_modal {
-  margin-bottom: 8px !important;
+  margin-bottom: -15px !important;
 }
 .img_modal1 {
   height: 191px;
@@ -105,7 +105,7 @@ header {
 }
 .modal-title + p {
   color: #93a2ab !important;
-  padding: 15px 0 40px !important;
+  padding: 15px 0 0px !important;
   margin: 0 !important;
 }
 .modal-politic {

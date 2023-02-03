@@ -867,7 +867,7 @@ header .header_bottom .row .header_filter .filter_buttons .dropdown ul a:hover {
 }
 
 .img_modal {
-  margin-bottom: 8px !important;
+  margin-bottom: -15px !important;
 }
 .img_modal1 {
   height: 191px;
