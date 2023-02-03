@@ -439,7 +439,7 @@ section.pt_mobile {
 }
 .modal-title + p {
   color: #93a2ab !important;
-  padding: 15px 0 0px !important;
+  padding: 15px 0 40px !important;
   margin: 0 !important;
 }
 .modal-politic {
@@ -522,7 +522,7 @@ section.pt_mobile {
 }
 .modal-title + p {
   color: #93a2ab !important;
-  padding: 15px 0 0px !important;
+  padding: 15px 0 40px !important;
   margin: 0 !important;
 }
 .modal-politic {
@@ -1125,6 +1125,9 @@ header .mobile_header {
   header .mobile_header .mobile_header_bottom .row {
     gap: 0;
   }
+}
+#callBack .modal-dialog .callback_btn {
+  width: 100%;
 }
 @media (max-width: 1200px) {
   header .mobile_header .mobile_header_bottom .header_menu {

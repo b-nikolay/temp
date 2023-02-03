@@ -5464,7 +5464,7 @@ margin: 0px !important;
 }
 .modal-title + p {
   color: #93a2ab !important;
-  padding: 15px 0 0px !important;
+  padding: 15px 0 40px !important;
   margin: 0 !important;
 }
 .modal-politic {
@@ -6323,7 +6323,9 @@ input {
 
 
 }
-
+.modal-body  p {
+  margin-bottom: 0px !important;
+}
 
 @media (max-width: 508px) {
   #call_measurement .modal-dialog {

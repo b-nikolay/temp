@@ -2811,7 +2811,7 @@ header .mobile_header {
 }
 .modal-title + p {
   color: #93a2ab !important;
-  padding: 15px 0 0px !important;
+  padding: 15px 0 40px !important;
   margin: 0 !important;
 }
 .modal-politic {
