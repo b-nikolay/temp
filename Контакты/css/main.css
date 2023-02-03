@@ -2848,11 +2848,13 @@ header .mobile_header {
   max-width: 300px;
 }
 .img_modal {
-  margin-bottom: 8px !important;
+
+  margin-bottom: -15px !important;
 }
 .img_modal1 {
   height: 191px;
   width: 398px;
+  margin-bottom: -15px !important;
 }
 .modal-title {
   font: 700 24px/130% Roboto !important;

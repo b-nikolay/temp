@@ -498,6 +498,7 @@ section.pt_mobile {
 }
 .img_modal1 {
   height: 191px;
+  margin-bottom: -15px !important;
   width: 398px;
 }
 .modal-title {

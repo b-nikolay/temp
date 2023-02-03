@@ -968,6 +968,7 @@ header .mobile_header {
   height: 191px;
   width: 398px;
   width: 100%;
+  margin-bottom: -15px !important;
 }
 @media (max-width: 1200px) and (max-width: 767px) {
   header .mobile_header .mobile_header_bottom .row {

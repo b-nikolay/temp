@@ -431,6 +431,7 @@ section.pt_mobile {
 .img_modal1 {
   height: 191px;
   width: 398px;
+  margin-bottom: -15px !important;
 }
 .modal-title {
   font: 700 24px/130% Roboto !important;

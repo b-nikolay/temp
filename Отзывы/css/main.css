@@ -6279,6 +6279,7 @@ background-color: #fff;
   height: 191px;
   width: 398px;
   width: 100%;
+  margin-bottom: -15px !important;
 }
 @media(max-width:750px) {
   .swiper-slide {

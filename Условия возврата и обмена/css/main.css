@@ -872,6 +872,7 @@ header .header_bottom .row .header_filter .filter_buttons .dropdown ul a:hover {
 .img_modal1 {
   height: 191px;
   width: 398px;
+  margin-bottom: -15px !important;
   width: 100%;
 }
 header .header_bottom .row .header_filter .filter_buttons .dropdown ul::before {
