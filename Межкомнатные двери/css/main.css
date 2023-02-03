@@ -92,7 +92,7 @@ body.mobile_menu_open::after {
 }
 
 .container {
-  max-width: 1280px;
+  max-width: 1320px;
   margin: 0 auto;
 }
 .swiper-button-prev,
@@ -122,6 +122,7 @@ body.mobile_menu_open::after {
 
 .callBack_bottom {
   width: 400px;
+  margin: auto;
 }
 .modal-body-measure {
   padding: 37px 52px 75px;
@@ -1071,14 +1072,16 @@ header .header_bottom .row .header_callback .favorites {
 header .header_bottom .row .header_callback .callback_btn {
   display: block;
   padding: 12px 28px;
-  white-space: nowrap;
-  background: #00A2FC;
+  background: #00a2fc;
   border-radius: 4px;
+  border: none;
   color: #fff;
   text-decoration: none;
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
+  cursor: pointer;
+  white-space: nowrap;
 }
 @media (max-width: 1300px) {
   header .header_bottom .row .header_callback .callback_btn {

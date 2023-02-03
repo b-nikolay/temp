@@ -913,7 +913,7 @@ header .header_bottom .row .header_filter .filter_buttons > ul {
 header .header_bottom .row .header_filter .filter_buttons > ul > li a {
   display: flex;
   align-items: center;
-  padding: 12px 28px;
+  padding: 12px 30px;
   background: #F3F3F3;
   border-radius: 4px;
   font-weight: 600;

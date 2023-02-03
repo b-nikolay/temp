@@ -1163,7 +1163,7 @@ header .header_bottom .row .header_filter .filter_buttons > ul {
 header .header_bottom .row .header_filter .filter_buttons > ul > li a {
   display: flex;
   align-items: center;
-  padding: 12px 30px;
+  padding: 12px 32px;
   background: #f3f3f3;
   border-radius: 4px;
   font-weight: 600;

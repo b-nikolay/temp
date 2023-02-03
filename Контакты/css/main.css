@@ -866,17 +866,20 @@ header .header_bottom .row .header_callback .favorites {
     top: 0;
   }
   }
-header .header_bottom .row .header_callback .callback_btn {
-  display: block;
-  padding: 12px 22px;
-  background: #00A2FC;
-  border-radius: 4px;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 140%;
-}
+  header .header_bottom .row .header_callback .callback_btn {
+    display: block;
+    padding: 12px 28px;
+    background: #00a2fc;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    cursor: pointer;
+    white-space: nowrap;
+  }
 @media (max-width: 1300px) {
   header .header_bottom .row .header_callback .callback_btn {
     padding: 12px 20px;
