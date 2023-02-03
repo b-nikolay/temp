@@ -592,9 +592,9 @@ body.mobile_menu_open::after {
     line-height: 130%;
   }
 }
-.row > * {
+/* .row > * {
   padding-left: 0;
-}
+} */
 .button {
   font-weight: 700;
   font-size: 18px;
@@ -1163,7 +1163,7 @@ header .header_bottom .row .header_filter .filter_buttons > ul {
 header .header_bottom .row .header_filter .filter_buttons > ul > li a {
   display: flex;
   align-items: center;
-  padding: 12px 32px;
+  padding: 12px 30px;
   background: #f3f3f3;
   border-radius: 4px;
   font-weight: 600;
@@ -7470,9 +7470,9 @@ margin-top: 10px;
 .mobile_header_top .container .row > * {
   width: auto;
 }
-.row > * {
+/* .row > * {
   padding-right: 0;
-}
+} */
 @media (max-width: 768px) {
   .help_choose .container, 
   .steps .container, 

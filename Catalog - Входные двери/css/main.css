@@ -784,7 +784,7 @@ header .header_bottom .row .header_filter .filter_buttons > ul {
 header .header_bottom .row .header_filter .filter_buttons > ul > li a {
   display: flex;
   align-items: center;
-  padding: 12px 32px;
+  padding: 12px 30px;
   background: #F3F3F3;
   border-radius: 4px;
   font-weight: 600;
@@ -970,9 +970,9 @@ body *{
 .mobile_header_top .container .row > * {
   width: auto;
 }
-.row > * {
+/* .row > * {
   padding-right: 0;
-}
+} */
 .modal_title {
   font-weight: 700;
   font-size: 24px;
@@ -1135,9 +1135,9 @@ Demo Animation Style
   margin-top: 15rem;
   
 }
-.row > * {
+/* .row > * {
   padding-left: 0;
-}
+} */
  #call_measurement .modal-dialog {
   margin-top: 8rem;
   margin-left: 35rem !important;

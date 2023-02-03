@@ -516,9 +516,9 @@ Demo Animation Style
   margin-top: 15rem;
   
 }
-.row > * {
+/* .row > * {
   padding-left: 0;
-}
+} */
  #call_measurement .modal-dialog {
   margin-top: 8rem;
   margin-left: 35rem !important;
