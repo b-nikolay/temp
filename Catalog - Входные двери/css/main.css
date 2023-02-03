@@ -1116,7 +1116,7 @@ Demo Animation Style
 }
 .modal-title + p {
   color: #93a2ab !important;
-  padding: 15px 0 40px !important;
+  padding: 15px 0 0px !important;
   margin: 0 !important;
 }
 .modal-politic {
