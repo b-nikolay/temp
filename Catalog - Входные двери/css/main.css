@@ -4039,7 +4039,7 @@ footer .footer_row .footer_item .vk_link a {
   font-weight: 300;
   font-size: 12px;
   line-height: 14px;
-  text-decoration-line: line-through;
+  text-decoration-line: line-through !important;
 }
 @media (max-width: 1300px) {
   .product_view .product_info .product_prices .price_item .price_block {
