@@ -7387,7 +7387,8 @@ left: -30px;
   }
   .header_bottom .modal-content,
   .director_texts .modal-content {
-    width: 100%;
+    width: 380px;
+    margin: auto;
   }
   .modal-content {
     border-radius: 0 !important;
