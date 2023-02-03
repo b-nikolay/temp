@@ -632,6 +632,10 @@ body *{
 .btn-close-measure {
   background-color: #fff !important;
 }
+.header_bottom .modal-content {
+  width: 380px;
+  margin: auto;
+}
 .header_bottom .modal-content,
 .director_texts .modal-content {
   width: 380px;

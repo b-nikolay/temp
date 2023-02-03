@@ -519,7 +519,8 @@ section.pt_mobile {
 }
 .header_bottom .modal-content,
 .director_texts .modal-content {
-  width: 400px;
+  width: 380px;
+  margin: auto;
 }
 @media (max-width: 1200px) {
   .modal-body-measure:after {

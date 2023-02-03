@@ -301,9 +301,11 @@ button:hover.btn_modal {
 }
 .btn-close-measure {
   background-color: #fff !important;
-}.header_bottom .modal-content,
+}
+.header_bottom .modal-content,
 .director_texts .modal-content {
-  width: 400px;
+  width: 380px;
+  margin: auto;
 }
 .swiper-slide img {
   width: 100% !important;

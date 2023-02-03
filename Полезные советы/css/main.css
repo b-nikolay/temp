@@ -6264,6 +6264,11 @@ left: -30px;
     margin-left: 0px;
   }
 }
+.header_bottom .modal-content,
+.director_texts .modal-content {
+  width: 380px;
+  margin: auto;
+}
 @media (max-width: 425px) {
   .modal-body-measure,
   .modal-measure,

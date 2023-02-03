@@ -2979,7 +2979,8 @@ button:hover.btn_modal {
 }
 .header_bottom .modal-content,
 .director_texts .modal-content {
-  width: 400px;
+  width: 380px;
+  margin: auto;
 }
 .btn-close:focus {
   box-shadow: none !important;
