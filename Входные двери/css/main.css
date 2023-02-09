@@ -7,9 +7,9 @@ p,
   padding: 0;
   box-sizing: border-box;
 }
-.modal-dialog {
+/* .modal-dialog {
   max-width: max-content !important;
-}
+} */
 .accordion {
   --bs-accordion-border-color: none !important;
   border-radius: 0 !important;
