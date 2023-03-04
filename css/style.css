@@ -671,7 +671,8 @@ main{
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
-  max-width: 1050px;
+  /* max-width: 1050px;
+   */
   width: 100%;
   /* margin-bottom: 300px; */
   position: relative;
@@ -683,7 +684,8 @@ main{
   width: 320px;
   height: 95px;
   top: -75px;
-  left: -435px;
+  left: 0;
+  /* left: -435px; */
   background-image: url(../images/pay-img.png);
   background-repeat: no-repeat;
 }
@@ -693,7 +695,7 @@ main{
   width: 320px;
   height: 95px;
   bottom: -20px;
-  right: -440px;
+  right: 0;
   background-image: url(../images/pay-img.png);
   background-repeat: no-repeat;
 }
@@ -708,7 +710,9 @@ main{
   font-size: 20px;
   line-height: 120%;
   color: #26292E;
+  text-align: center;
   max-width: 1000px;
+  display: inline-block;
   margin-bottom: 50px;
 }
 .pay__buttons{
@@ -1239,11 +1243,20 @@ main{
     margin-top: 20px;
   }
   .pay__buttons{
-    flex-wrap: wrap;
+    flex-wrap: wrap;         
     gap: 0px;
   }
   .pay__block{
     /* margin-bottom: 170px; */
+  }
+  .pay__block::before {
+    background-size: contain;
+    top: -50px;
+  }
+  .pay__block::after {
+    background-position: right;
+    bottom: -45px;
+    background-size: contain;
   }
   .pay__block-title{
     font-size: 20px;
