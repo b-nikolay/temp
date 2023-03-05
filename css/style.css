@@ -1172,6 +1172,9 @@ main{
     margin: 0 auto;
     max-width: 350px;
   }
+  .homepage {
+    margin-top: 20px;
+  }
   .homepage__button, button::after {
     width: 350px;
     height: 56px;
@@ -1267,12 +1270,16 @@ main{
   .footer__content--mod {
     margin-top: 20px;
   }
+
   .pay__buttons{
     flex-wrap: wrap;         
     gap: 0px;
   }
   .pay__block{
     /* margin-bottom: 170px; */
+  }
+  .body  {
+    overflow: auto;
   }
   .pay__block::before {
     background-size: contain;
@@ -1376,12 +1383,12 @@ main{
 }
 
 @media (max-width: 450px) {
-  .homepage{
+  /* .homepage{
     padding-bottom: 20px;
   }
   .homepage__block1{
     margin-bottom: 100px;
-  }
+  } */
   .footer__nav-link{
     margin-left: 5px;
   }
