@@ -1380,6 +1380,9 @@ main{
   .homepage__form-input1{
     margin-left: 0px;
   }
+  .homepage__form-input:focus ~ .homepage__form-label, .homepage__form-input1:focus ~ .homepage__form-label, .homepage__form-input:not(:focus):valid ~ .homepage__form-label, .homepage__form-input1:not(:focus):valid ~ .homepage__form-label {
+    left: 50px !important;
+  }
 }
 
 @media (max-width: 450px) {
