@@ -1033,7 +1033,7 @@ main{
   .homepage__block2::after{
     position: absolute;
     content: '';
-    top: 10px;
+    top: 50px;
     left: 0;
     width: 100%;
     height: 105%;
@@ -1102,7 +1102,9 @@ main{
     margin-bottom: 10px;
   }
   .homepage__form{
-    max-width: 333px;
+    max-width: 550px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 0 auto;
   }
   .homepage__form-box1{
@@ -1168,19 +1170,21 @@ main{
     height: 57px;
   }
   .homepage__list1{
+    padding-right: 10px;
+    padding-left: 10px;
     display: block;
     margin: 0 auto;
-    max-width: 350px;
+    max-width: 550px;
   }
   .homepage {
     margin-top: 20px;
   }
   .homepage__button, button::after {
-    width: 350px;
+    max-width: 100%;
     height: 56px;
     font-size: 20px;
     margin-bottom: 15px;
-    margin-top: -20px;
+    margin-top: 25px;
   }
   .homepage__list-title{
     font-size: 14px;
